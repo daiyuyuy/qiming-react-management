@@ -1,0 +1,84 @@
+.home img{
+    width:100px;
+    height:100px;
+    border-radius:20px;
+    border:1px solid #ccc;
+    margin-right:50px;
+}
+/* .home .userinfo{
+    color:#666666;
+} */
+.home .name{
+    font-size:32px;
+    maigin-bottom:10px;
+   
+}
+
+.home .user{
+    display:flex;
+    align-items:center;
+    padding-bottom:20px;
+    maigin-bottom:20px;
+    border-bottom:1px solid #ccc;
+}
+
+.home .login-message p{
+    line-height:28px;
+    font-size:14px;
+    padding-left:20px;
+    color:#999999;
+}
+
+.home .login-message p span{
+    color:#999999;
+    margin-left:80px;
+
+}
+.home .num{
+    
+    display:flex;
+    flex-wrap:wrap;
+   
+    justify-content:space-between;
+}
+
+.home .num .ant-card{
+    width:33%;
+}
+.home .num .ant-card-body{
+    display:flex;
+    padding:10px 20px;
+}
+.home .num .icon-box{
+    width:65px;
+    height:65px;
+    text-align:center;
+    line-height:75px;
+    color:#fff;
+  
+    border-radius:5px;
+    /* border-top-left-radius:5px;
+    border-bottom-left-radius:5px; */
+}
+
+.home .anticon{
+    font-size:28px;
+}
+.home .num .detail{
+    margin-left:8px;
+}
+.home .num .detail .num{
+    font-size:26px;
+    maigin-bottom:10px;
+    color:#455a64; 
+}
+.home .num .detail .txt{
+    font-size:14px;
+    text-align:center;
+    color:#999999; 
+}
+.home .graph{
+
+    display:flex;
+    margin-top: 20px;
+}
